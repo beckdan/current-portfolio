@@ -1,4 +1,4 @@
-# MAIN TITLE
+# Daniel Beck
 # SECONDARY TITLE
 ​
 ## Table of contents
