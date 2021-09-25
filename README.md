@@ -1,92 +1,60 @@
-# Daniel Beck
+# MAIN TITLE
+
+Dan Beck 
+
 # SECONDARY TITLE
+
+Junior Web Developer
 ​
 ## Table of contents
 ​
 - [General info](#General-Info)
 - [Technologies](#Technologies)
-- [Containers](#Containers)
-- [Deployment](#Deployment)
 - [Code Overview](#Code-Overview)
 - [Summary](#Summary)
-- [CSS style](#CSS-style)
-- [Routing Explained](#Routing-Explained)
-​
 ​
 ## General-Info
 ​
-General description here
+This portfolio displays my current body of work. In the future, this page will feature services that I can offer to potential clients, contact info, and more detailed list of skills. 
 ​
-This project utilizes a full MERN stack in order to CRUD data and display it realtime on visualizations. 
-- Technology1
-- Technology2
-- Technology3
-- Technology4
+This project utilizes:
+- HTML
+- CSS
+
 ​
-Deployed link: 
+Deployed link: XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ​
 Landing page 
 ​
-![Image](assets/landingpage.png)
+![Image]()
 ​
 ## Technologies
 ​
 Project is created with:
 ​
-- [React](https://reactjs.org/)
-- [React-Router](https://reacttraining.com/react-router/)
-- [React-Redux](https://react-redux.js.org/)
-- [Passport.js](http://www.passportjs.org/)
-- [Material-UI](https://material-ui.com/)
-- [JavaScript](https://www.javascript.com/)
-- [Bootstrap](https://getbootstrap.com/)
-- [Node.js](https://nodejs.org/)
-- [Express.js](https://expressjs.com/)
-- [MongoDb](https://www.mongodb.com/)
-- [Mongoose](https://mongoosejs.com/)
-- [Socket.io](https://socket.io/)
-- [Bcrypt.js](https://www.npmjs.com/package/bcrypt)
-- [React-Chartjs-2](https://github.com/jerairrest/react-chartjs-2)
-​
-## Containers
-​
-![Image](assets/containers.png)
-​
-## Deployment
-​
-Download the repository
-​
-- Copy the repo
-- In your terminal, cd to the CRM folder directory, `$npm i`
-- To run on browser: `npm start`
-- You can also use the heroku-link for a demo:
-- Deployed link: 
+- [HTML]
+- [CSS]
+
 ​
 ## Code Overview
 ​
-- Basic overview
+This code uses basic HTML and CSS to display text and links that relay information about myself and what my capabilities and limitations are as a web developer. 
 ​
 ## Summary
 ​
-- This project is a mock-CRM for a start-up/small brewery company. 
+- This project is a landing page for potential clients to explore what skills I can bring to their operation. 
 ​
-## CSS style
-​
-- This part we explain the CSS style 
-​
-​
-## Routing-Explained
-​
-- Routing 
-​
-![Image](assets/routing.png)
 ​
 ## Authors
 ​
-- John Doe
-- Jane Doe
+- Daniel Beck
 ​
 ## License
 ​
 - Open Source
+​
+​
+​
+​
+​
 ​
