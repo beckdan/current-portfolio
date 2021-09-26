@@ -22,11 +22,7 @@ This project utilizes:
 - CSS
 
 ​
-Deployed link: XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-​
-Landing page 
-​
-![Image]()
+Deployed link: https://beckdan.github.io/current-portfolio/
 ​
 ## Technologies
 ​
