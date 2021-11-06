@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Julius+Sans+One&family=Play&family=Zilla+Slab&display=swap');
+
+/* font-family: 'Gruppo', cursive;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Play', sans-serif;
+font-family: 'Zilla Slab', serif; */
+
 body {
-    font-family: "Open Sans", sans-serif;
-    color: #272829;
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
   }
   
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
-  }
+ 
 
   /* Nav bar specifications */
   #header {
@@ -16,7 +21,6 @@ body {
     bottom: -88px;
     width: 300px;
     z-index: 9997;
-    padding: 0 15px;
     background: #040b14;
     overflow-y: auto;
   }
@@ -30,19 +34,15 @@ body {
   }
 
    /* Profile name font */
-  #header .profile h1 {
+ .profile {
+    color: rgb(255, 255, 255);
     text-decoration-line: none;
-    font-size: 28px;
+    font-size: 20px;
     margin: 0;
     padding: 0;
-    font-weight: 600;
-    -moz-text-align-last: center;
     text-align-last: center;
-    font-family: "Poppins", sans-serif;
-  }
-  #header .profile h1 a, #header .profile h1 a:hover {
-    color: #fff;
-    text-decoration: none;
+    font-family: 'Play', sans-serif;
+    text-shadow: rgb(90, 90, 90) 4px 4px 4px;
   }
   
   #main {
@@ -60,18 +60,29 @@ body {
   }
 
 /* Nav menu specs */
-  .nav-menu {
-    padding: 30px 0 0 0;
+
+  #navbar {
+    font-size: 28px;
+    font-family: 'Gruppo', cursive;
   }
+
+  .nav-menu {
+    padding: 25px 0 0 0;
+  }
+
   .nav-menu * {
     margin: 0;
     padding: 0;
     list-style: none;
   }
+
   .nav-menu > ul > li {
     position: relative;
     white-space: nowrap;
+    text-decoration: none;
+    padding-top: 20px;
   }
+
   .nav-menu a, .nav-menu a:focus {
     display: flex;
     align-items: center;
@@ -79,25 +90,32 @@ body {
     padding: 12px 15px;
     margin-bottom: 8px;
     transition: 0.3s;
-    font-size: 20px;
+    text-decoration: none;
+    padding-top: 20px;
   }
+
   .nav-menu a i, .nav-menu a:focus i {
-    font-size: 24px;
     padding-right: 8px;
     color: #6f7180;
+    text-decoration: none;
   }
+
   .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
     text-decoration: none;
     color: #fff;
+    text-decoration: none;
+    padding-top: 20px;
   }
   
   
  /* Junior web developer title */
   .text-over-image {
+    
     text-align: center;
     text-decoration: bold;
     color: blanchedalmond;
     font-style: italic;
+    font-family: 'Play', sans-serif;
   }
   
   /* Main background image: could not determine how to fit within the space without repeating, will refine */
@@ -184,6 +202,7 @@ body {
     font-size: 20px;
     font-weight: 1000;
     color: black;
+    padding-left: 12px;
   }
 
   .portfolio-box2 {
@@ -204,6 +223,7 @@ body {
     font-weight: 1000;
     color: rgb(255, 255, 255);
     right: 455px;
+    padding-left: 12px;
   }
 
   .portfolio-box3 {
@@ -227,6 +247,7 @@ body {
     font-weight: 1000;
     color: rgb(255, 255, 255);
     right: 455px;
+    padding-left: 12px;
   }
 
   .portfolio-box1 .overlay {
@@ -243,7 +264,7 @@ body {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #920303;
+    background-color: #389203;
   }
   
   .portfolio-box1:hover .overlay {
@@ -283,7 +304,7 @@ body {
     width: 107.75%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #920303;
+    background-color: #b5aceb;
   }
   
   .portfolio-box3:hover .overlay {
@@ -301,7 +322,7 @@ body {
     width: 100%;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   }
-  .contact .info i {
+  /* .contact .info i {
     font-size: 230px;
     color: #dd1414a8;
     float: left;
@@ -313,7 +334,7 @@ body {
     align-items: center;
     border-radius: 50px;
     transition: all 0.3s ease-in-out;
-  }
+  } */
   .contact .info h4 {
     padding: 0 0 0 60px;
     font-size: 22px;
