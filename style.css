@@ -1,48 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Julius+Sans+One&family=Play&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 /* font-family: 'Gruppo', cursive;
 font-family: 'Julius Sans One', sans-serif;
 font-family: 'Play', sans-serif;
-font-family: 'Zilla Slab', serif; */
+font-family: 'Zilla Slab', serif; 
+font-family: 'Montserrat', sans-serif;*/
 
 body {
-  font-family: 'Play', sans-serif;
+  /* font-family: 'Play', sans-serif; */
   font-size: 20px;
   }
   
-
- 
-
   /* Nav bar specifications */
   #header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    bottom: -88px;
+    bottom: 0px;
     width: 300px;
     z-index: 9997;
-    background: #040b14;
-    overflow-y: auto;
+    background-image: linear-gradient(to bottom, rgba(44, 44, 44, 0.466), rgb(15, 15, 15));
   }
 
   /* Profile image */
   #header .profile img {
-    margin: 15px auto;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35px;
     display: block;
-    width: 120px;
-    border: 4px solid #3b302da4;
+    width: 75%;
+    box-shadow: rgb(51, 51, 51) 3px 3px 15px 4px;
+  }
+
+  #header .profile .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+
+  #header .profile .social-links a:hover {
+    background:  #a8a9b4;
+    color: #fff;
+    text-decoration: none;
   }
 
    /* Profile name font */
- .profile {
+ .profile h1 {
     color: rgb(255, 255, 255);
-    text-decoration-line: none;
-    font-size: 20px;
+    font-size: 40px;
+    margin-bottom: 2px;
+    padding: 0;
+    text-align-last: center;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: rgb(56, 56, 56) 2px 2px 6px;
+  }
+
+  .sub-title {
+    color: rgb(255, 255, 255);
+    font-size: large;
     margin: 0;
     padding: 0;
     text-align-last: center;
-    font-family: 'Play', sans-serif;
-    text-shadow: rgb(90, 90, 90) 4px 4px 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: rgb(56, 56, 56) 2px 2px 6px;
   }
   
   #main {
@@ -62,8 +93,8 @@ body {
 /* Nav menu specs */
 
   #navbar {
-    font-size: 28px;
-    font-family: 'Gruppo', cursive;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .nav-menu {
@@ -80,7 +111,7 @@ body {
     position: relative;
     white-space: nowrap;
     text-decoration: none;
-    padding-top: 20px;
+    padding-top: 10px;
   }
 
   .nav-menu a, .nav-menu a:focus {
@@ -106,58 +137,67 @@ body {
     text-decoration: none;
     padding-top: 20px;
   }
-  
-  
- /* Junior web developer title */
-  .text-over-image {
-    
-    text-align: center;
-    text-decoration: bold;
-    color: blanchedalmond;
-    font-style: italic;
-    font-family: 'Play', sans-serif;
+
+  .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
+    color: #fff;
   }
+  
   
   /* Main background image: could not determine how to fit within the space without repeating, will refine */
   #hero {
-    background-image: url("./images/soph-dan-159.JPG");
-    background-repeat: repeat;
-    background-attachment: fixed;
     width: 100%;
-    height: 1000px;
+    height: 100vh;
+    background-image: url("./images/climb.jpg");
+    background-size: cover;
   }
 
   /* About, Portfolio, and Contact section formatting */
   .section-title {
+    position: relative;
     padding-top: 30px;
     padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
   }
+
   .section-title h2 {
     font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
     position: relative;
     color: #173b6c;
+    text-shadow: rgb(80, 80, 80) 2px 2px 8px;
   }
+
+  .section-title p {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    color: black
+  }
+
   .section-title h2::after {
     content: "";
     position: relative;
     display: block;
-    width: 50px;
+    width: 60px;
     height: 3px;
-    background: #149ddd;
-    bottom: 0;
-    left: 0;
+    background: #83a8b9;
   }
+  .portfolio {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
   .section-title p {
     margin-bottom: 0;
   }
   
-  .about .content h3 {
-    font-weight: 700;
-    font-size: 26px;
-    color: #173b6c;
+  .info-list {
+    list-style: none;
+    
   }
   
   .about .content ul i {
@@ -197,12 +237,12 @@ body {
   .portfolio-box1 span {
     position: absolute;
     bottom: 0px;
-    font-family: 'Courier New', Courier, monospace;
-    right: 1242px;
-    font-size: 20px;
-    font-weight: 1000;
+    font-family: 'Montserrat', sans-serif;
+    right: 1282px;
+    font-size: 18px;
+    font-weight: bolder;
     color: black;
-    padding-left: 12px;
+    margin-bottom: 5px;
   }
 
   .portfolio-box2 {
@@ -218,12 +258,12 @@ body {
   .portfolio-box2 span {
     position: absolute;
     bottom: 0px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     font-weight: 1000;
     color: rgb(255, 255, 255);
-    right: 455px;
-    padding-left: 12px;
+    right: 460px;
+    margin-bottom: 5px;
   }
 
   .portfolio-box3 {
@@ -242,12 +282,12 @@ body {
   .portfolio-box3 span {
     position: absolute;
     bottom: 0px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     font-weight: 1000;
     color: rgb(255, 255, 255);
-    right: 455px;
-    padding-left: 12px;
+    right: 460px;
+    margin-bottom: 5px;
   }
 
   .portfolio-box1 .overlay {
@@ -304,11 +344,11 @@ body {
     width: 107.75%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #b5aceb;
+    background-color: #ffffff;
   }
   
   .portfolio-box3:hover .overlay {
-    opacity: 0.3;
+    opacity: 0.2;
   }
   
 
@@ -316,64 +356,43 @@ body {
   .contact {
     padding-bottom: 130px;
   }
+
   .contact .info {
+    position: relative;
     padding: 30px;
     background: #fff;
-    width: 100%;
+    width: 75%;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+   
   }
-  /* .contact .info i {
-    font-size: 230px;
-    color: #dd1414a8;
-    float: left;
-    width: 44px;
-    height: 44px;
-    background: #dff3fc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
-  } */
+
   .contact .info h4 {
-    padding: 0 0 0 60px;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
     color: #050d18;
   }
+
   .contact .info p {
     text-decoration: bold;
-    padding: 0 0 10px 60px;
     margin-bottom: 20px;
     font-size: 16px;
     color: #000000a8;
   }
-  .contact .info .email p {
-    padding-top: 5px;
-  }
-
-  .contact .info .social-links a:hover {
-    background: #dd1414a8;
-    color: #fff;
-  }
-  .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-    background: #dd1414a8;
-    color: #fff;
-  }
-  
+ 
 
   
   /* Footer text formatting */
   #footer {
-    font-style: italic;
-    padding: 8px;
-    color: #747577;
-    font-size: 10px;
+    margin-left: 0;
+    margin-bottom: 5px;
+    color: #b8b8b8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 150px;
+    width: 200px;
     z-index: 9999;
-    background: #ffffff; opacity: 100%;
+    background: #000000; opacity: 100%;
   }
